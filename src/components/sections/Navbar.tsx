@@ -45,9 +45,14 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-10 h-10 rounded-lg overflow-hidden border border-gold-500/30 group-hover:border-gold-500/70 transition-all duration-300">
-              <div className="w-full h-full bg-gradient-to-br from-gold-600 to-gold-800 flex items-center justify-center">
-                <span className="text-white font-display font-bold text-lg">V</span>
-              </div>
+              <Image
+                src="/logo.jpg"
+                alt="Ved Rexine Store"
+                fill
+                sizes="40px"
+                priority
+                className="object-cover"
+              />
             </div>
             <div>
               <div className="text-white font-display font-semibold text-lg leading-tight group-hover:text-gold-400 transition-colors duration-300">
