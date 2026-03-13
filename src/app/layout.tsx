@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       'Delhi\'s most trusted foam and mattress supplier since 1967. PU Foam, EVA Sheets, EPE Foam, Spring Mattresses, Adhesives & Shoe Materials in Karol Bagh.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.svg',
         width: 1200,
         height: 630,
         alt: 'Ved Rexine Store - Premium Foam Supplier Delhi',
@@ -52,7 +52,10 @@ export const metadata: Metadata = {
     title: 'Ved Rexine Store | Premium Foam & Mattress Supplier Delhi',
     description:
       'Trusted foam, EVA & mattress supplier in Delhi since 1967. Quality materials for furniture, footwear & packaging industries.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.svg'],
+  },
+  icons: {
+    icon: '/favicon.svg',
   },
   verification: {
     google: 'your-google-verification-code',
@@ -133,8 +136,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/favicon.svg" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#030305" />
         <script
